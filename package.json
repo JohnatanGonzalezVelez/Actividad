@@ -1,0 +1,21 @@
+{
+  "name": "actividad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "node-sass": "^4.10.0",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass  src/sass/app.scss dist/style.css",
+    "dist": "npm run compile-sass && npm run compile-pug",
+    "compile-pug": "pug --watch src/pug/index.pug --out dist/"
+  },
+  "author": "Johnatan Gonzalez Velez",
+  "license": "ISC"
+}
