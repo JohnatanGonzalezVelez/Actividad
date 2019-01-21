@@ -1,7 +1,6 @@
 {
   "name": "actividad",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
@@ -17,5 +16,14 @@
     "compile-pug": "pug --watch src/pug/index.pug --out dist/"
   },
   "author": "Johnatan Gonzalez Velez",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnatanGonzalezVelez/Actividad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JohnatanGonzalezVelez/Actividad/issues"
+  },
+  "homepage": "https://github.com/JohnatanGonzalezVelez/Actividad#readme",
+  "description": ""
 }
